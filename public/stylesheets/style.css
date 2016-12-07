@@ -30,6 +30,8 @@ a {
 
 .logo-area {
   height: 59px;
+  width: 280px;
+  display: inline-block;
 }
 
 .logo-image {
@@ -43,37 +45,66 @@ a {
 
 .logo-texts {
   float: left;
+  margin: 7px;
 }
 
 .feedback-area {
-
+  float: right;
+  display: inline-block;
+  width: calc(100% - 280px);
 }
 
 .feedback-info {
-
+  display: inline-block;
+  margin-right: 19px;
 }
 
 .feedback-phone {
-
+  height: 18px;
+  /*width: 180px;*/
+  font-family: Open Sans;
+  font-size: 21px;
+  color: rgba(1, 91, 126, 1);
+  /*text-align: left;*/
+  text-align: right;
 }
 
 .feedback-email {
-
+  margin-top: 5px;
+  height: 16px;
+  /*width: 179px;*/
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(73, 162, 237, 1);
+  text-align: right;
 }
 
 .feedback-button {
-
+  background-color: rgba(180, 66, 66, 1);
+  height: 47px;
+  width: 227px;
+  display: inline-block;
+  border-bottom: solid 2px rgba(1, 91, 126, 1);
 }
 
+.logo-secondary {
+  /*height: 11px;*/
+  /*width: 191px;*/
+  font-family: Open Sans;
+  font-size: 12px;
+  color: rgba(73, 162, 237, 1);
+  text-align: left;
+}
 .logo-primary {
   height: 30px;
   width: 190px;
   /*font-family: ;*/
-  font-size: 50px;
+  /*font-size: 50px;*/
+  font-size: 30px;
   color: rgba(1, 91, 126, 1);
   text-align: left;
   letter-spacing: 0.07em;
-  line-height: 6px;
+  /*line-height: 6px;*/
 }
 
 .content {
