@@ -1,6 +1,7 @@
 body {
   /*padding: 50px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 a {
@@ -21,4 +22,62 @@ a {
   -webkit-background-size: 3px 3px;
   -moz-background-size: 3px 3px;
   background-size: 3px 3px;
+}
+
+.head {
+  padding-top: 21px;
+}
+
+.logo-area {
+  height: 59px;
+}
+
+.logo-image {
+  height: 59px;
+  width: 59px;
+  /*background-color: rgba(1, 91, 126, 1);*/
+  /*border-radius: 58px;*/
+  background-image: url('/images/logo.png');
+  float: left;
+}
+
+.logo-texts {
+  float: left;
+}
+
+.feedback-area {
+
+}
+
+.feedback-info {
+
+}
+
+.feedback-phone {
+
+}
+
+.feedback-email {
+
+}
+
+.feedback-button {
+
+}
+
+.logo-primary {
+  height: 30px;
+  width: 190px;
+  /*font-family: ;*/
+  font-size: 50px;
+  color: rgba(1, 91, 126, 1);
+  text-align: left;
+  letter-spacing: 0.07em;
+  line-height: 6px;
+}
+
+.content {
+  margin: auto;
+  max-width: 960px;
+  width: 100%;
 }
