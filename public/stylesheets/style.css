@@ -60,8 +60,6 @@ a {
 }
 
 .feedback-phone {
-  height: 18px;
-  /*width: 180px;*/
   font-family: Open Sans;
   font-size: 21px;
   color: rgba(1, 91, 126, 1);
@@ -85,6 +83,26 @@ a {
   width: 227px;
   display: inline-block;
   border-bottom: solid 2px rgba(1, 91, 126, 1);
+}
+
+.feedback-button-icon {
+  height: 24px;
+  width: 24px;
+  background-image: url('/images/call.png');
+  float: left;
+  color: white;
+  margin: 13px 13px 10px 19px;
+}
+
+.feedback-button-text {
+  /*height: 12px;*/
+  /*width: 151px;*/
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  margin-top: 13px;
+  text-transform: uppercase;
 }
 
 .logo-secondary {
