@@ -18,6 +18,11 @@ a {
   background-color: rgba(1, 91, 126, 1);
 }
 
+.lightblueline {
+  /*height: 10px;*/
+  background-color: rgba(73, 162, 237, 1);
+}
+
 .header {
   height: 156px;
   /*height: 140px;*/
@@ -156,10 +161,17 @@ a {
   color: rgba(1, 91, 126, 1);
   text-align: justify;
 }
+
 .navigation a {
   color: rgba(1, 91, 126, 1);
   text-decoration: none;
 }
+
+.navigation.footer a {
+  color: white;
+  text-decoration: none;
+}
+
 .navigation-helper {
   width: 100%;
   height: 0;
@@ -170,6 +182,17 @@ a {
   /*width: calc(100% / 7);*/
   text-align: left;
   padding-right: 29px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+.navigation.footer {
+  background-color: rgba(1, 91, 126, 1);
+  height: 137px;
+}
+
+.navigation-footer {
+  padding-left: 0;
 }
 
 /*ul {*/
