@@ -359,3 +359,40 @@ a {
 .product-demo:hover .product-tab {
   background-color: rgba(180, 66, 66, 1);
 }
+
+/* ---------- product vertical ------------------- */
+.product-vertical-wrapper {
+  width: 225px;
+}
+.product-vertical-image {
+  height: 288px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-vertical-description {
+  background-color: rgba(1, 91, 126, 1);
+  color: white;
+  font-family: Open Sans;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.product-vertical-info {
+  background-color: rgba(73, 162, 237, 0.2);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.product-vertical-price {
+  font-family: Open Sans;
+  font-size: 25px;
+  color: rgba(1, 91, 126, 1);
+}
+
+.product-vertical-installation-price {
+  font-family: Open Sans;
+  font-size: 13px;
+  color: rgba(1, 91, 126, 1);
+}
