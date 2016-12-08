@@ -320,3 +320,42 @@ a {
   content: '';
   z-index: 5;
 }
+
+.product-demo {
+  height: 180px;
+  width: 310px;
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-demo:after {
+  position: absolute;
+  content: '';
+  background-color: #c2e6ff;
+  opacity: 0.4;
+  top: 0;
+  bottom: 34px;
+  width: 100%;
+}
+
+.product-demo:hover:after {
+  opacity: 0;
+}
+.product-tab {
+  width: 100%;
+  bottom: 0;
+  /*height: 34px;*/
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(1, 91, 126, 1);
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+
+.product-demo:hover .product-tab {
+  background-color: rgba(180, 66, 66, 1);
+}
