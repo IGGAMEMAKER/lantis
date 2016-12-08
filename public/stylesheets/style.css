@@ -220,7 +220,7 @@ a {
   padding-right: 29px;
   padding-top: 14px;
   /*padding-bottom: 13px;*/
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 
 .navigation.footer .navigation-label {
@@ -240,4 +240,57 @@ a {
   background-color: rgba(1, 91, 126, 1);
   padding-top: 21px;
   height: 98px;
+}
+
+/* ---------- additional styling ------------ */
+.our-clients-label {
+  font-family: Open Sans;
+  font-size: 25px;
+  color: rgba(33, 33, 33, 1);
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.our-clients-image-wrapper {
+  /*margin: 0 auto;*/
+  margin-bottom: 20px;
+  text-align: center;
+  height: 150px;
+}
+
+.our-clients-next {
+  background-image: url('/images/arrow-next-active.png');
+}
+
+.our-clients-previous {
+  background-image: url('/images/arrow-previous.png');
+}
+
+.our-clients-images {
+  display: inline-block;
+}
+
+.our-clients-next,.our-clients-previous {
+  height: 36px;
+  width: 21px;
+  position: absolute;
+  top: calc(50% - 18px);
+}
+
+.our-clients-arrow {
+  /*height: 36px;*/
+  height: 100%;
+  width: 21px;
+  display: inline-block;
+  position: relative;
+}
+
+.our-clients-image {
+  display: inline-block;
+  height: 132px;
+  width: 164px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
