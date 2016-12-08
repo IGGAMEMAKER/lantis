@@ -363,6 +363,7 @@ a {
 /* ---------- product vertical ------------------- */
 .product-vertical-wrapper {
   width: 225px;
+  position: relative;
 }
 .product-vertical-image {
   height: 288px;
@@ -395,4 +396,18 @@ a {
   font-family: Open Sans;
   font-size: 13px;
   color: rgba(1, 91, 126, 1);
+}
+
+.product-vertical-wrapper:hover:after {
+  position: absolute;
+  content: '';
+  height: 288px;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.7);
+  z-index: 5;
+}
+
+.product-vertical-wrapper:hover .product-vertical-description {
+  background-color: rgba(180, 66, 66, 1);
 }
