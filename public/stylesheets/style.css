@@ -550,9 +550,12 @@ a {
 }
 
 /* -------- goods card ------------ */
+.goods-image-column {
+  width: 460px;
+}
 .goods-card-big-image {
   height: 320px;
-  width: 460px;
+  width: 100%;
   position: relative;
 }
 
@@ -571,11 +574,50 @@ a {
 .goods-arrow.left {
   left: 0;
   top: 0;
-  background-image: url('/images/arrow-previous.png');
+  background-image: url('/images/main-advert-arrow-left.png');
 }
 
 .goods-arrow.right {
   right: 0;
   top: 0;
   background-image: url('/images/arrow-next-active.png');
+}
+
+.goods-image-list {
+  padding-top: 20px;
+}
+
+.goods-small-image {
+  padding-top: 20px;
+  height: 102px;
+  width: 150px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.goods-small-image.center {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.goods-table {
+}
+
+.goods-table td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.goods-table tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+.goods-table tbody tr:nth-child(odd) {
+  width: 70%;
+  background-color: rgba(73, 162, 237, 0.2);
+}
+
+.goods-table tbody td:nth-child(odd) {
+  width: 70%;
 }
