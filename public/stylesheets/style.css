@@ -702,3 +702,71 @@ a {
   font-family: Open Sans;
   font-size: 16px;
 }
+
+/* --------- news ----------- */
+.news-container {
+  overflow: auto;
+  height: 204px;
+  margin-bottom: 20px;
+}
+
+.news-container:nth-child(even) {
+  overflow: auto;
+  height: 204px;
+  background-color: rgba(73, 162, 237, 0.1);
+}
+
+.news-image {
+  height: 100%;
+  width: 310px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: left;
+}
+
+.news-info {
+  padding-left: 14px;
+  text-align: left;
+  font-family: Open Sans;
+  width: calc(100% - 310px);
+  float: right;
+  box-sizing: border-box;
+}
+
+.news-title {
+  font-size: 22px;
+  color: rgba(1, 91, 126, 1);
+  line-height: 20px;
+}
+
+.news-date {
+  font-size: 15px;
+  color: rgba(73, 162, 237, 1);
+  line-height: 20px;
+}
+
+.news-text {
+  font-size: 15px;
+  color: rgba(66, 66, 66, 1);
+  line-height: 20px;
+  margin: 12px auto 8px auto;
+  height: 106px;
+  overflow: hidden;
+}
+
+.news-more-button {
+  background-color: rgba(73, 162, 237, 1);
+  height: 38px;
+  width: 155px;
+  color: white;
+  text-align: center;
+  padding-top: 9px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.news-more-button a {
+  text-decoration: none;
+  color: white;
+}
