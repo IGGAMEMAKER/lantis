@@ -318,6 +318,8 @@ a {
   bottom: 0;
   position: absolute;
   content: '';
+  text-align: center;
+  color: white;
   z-index: 5;
 }
 
@@ -471,4 +473,50 @@ a {
 .paginator-container {
   margin: 0 auto;
   text-align: center;
+}
+
+/* --------- advert ---------- */
+.advert-container {
+  height: 309px;
+  width: 960px;
+  padding-top: 30px;
+  padding-left: 57px;
+  background-image: url('/images/main-advert.png');
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.advert-title {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 20px;
+}
+
+.advert-text {
+  margin-top: 25px;
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 20px;
+}
+
+.advert-buy {
+  margin-top: 106px;
+  background-color: rgba(180, 66, 66, 1);
+  height: 42px;
+  width: 147px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+
+  font-family: Open Sans;
+  font-size: 17px;
+  line-height: 20px;
 }
