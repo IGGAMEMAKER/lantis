@@ -557,14 +557,19 @@ a {
 }
 
 .goods-description-column {
-  /*float: left;*/
+  float: left;
   width: calc(100% - 460px - 20px);
+  margin-left: 20px;
 }
 
 .goods-card-big-image {
   height: 320px;
   width: 100%;
   position: relative;
+}
+
+.goods-card-container {
+  overflow: auto;
 }
 
 .goods-arrow {
@@ -616,6 +621,7 @@ a {
   color: rgba(66, 66, 66, 1);
   text-align: left;
   line-height: 25px;
+  float: left;
 }
 
 .goods-table td {
@@ -638,8 +644,32 @@ a {
 .goods-price-container {
   width: 173px;
   text-align: center;
-  border: dashed 1px antiquewhite;
+  float: right;
 }
+
+.goods-textual-description {
+  /*Text styles for Противопож */
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(66, 66, 66, 1);
+  text-align: left;
+  line-height: 20px;
+}
+
+.goods-textual-description-container {
+  margin-top: 33px;
+  width: 464px;
+}
+.goods-textual-description-title {
+  font-family: Open Sans;
+  font-size: 23px;
+  color: rgba(1, 91, 126, 1);
+  text-align: left;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .goods-price-title {
   font-family: Open Sans;
   font-size: 25px;
