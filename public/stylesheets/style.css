@@ -475,8 +475,8 @@ a {
   text-align: center;
 }
 
-/* --------- advert ---------- */
-.advert-container {
+/* --------- main-image ---------- */
+.main-image-container {
   height: 309px;
   width: 960px;
   padding-top: 30px;
@@ -488,7 +488,28 @@ a {
   box-sizing: border-box;
 }
 
-.advert-title {
+.main-image-arrow {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(180, 66, 66, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-image-arrow.left {
+  left: 0;
+  top: 0;
+  background-image: url('/images/main-advert-arrow-left.png');
+}
+
+.main-image-arrow.right {
+  left: 100%;
+  top: 0;
+  background-image: url('/images/main-advert-arrow-right.png');
+}
+
+.main-image-title {
   font-family: Open Sans;
   font-size: 24px;
   font-weight: bold;
@@ -497,7 +518,7 @@ a {
   line-height: 20px;
 }
 
-.advert-text {
+.main-image-text {
   margin-top: 25px;
   font-family: Open Sans;
   font-size: 15px;
@@ -506,17 +527,21 @@ a {
   line-height: 20px;
 }
 
-.advert-buy {
+.main-image-buy {
   margin-top: 106px;
   background-color: rgba(180, 66, 66, 1);
   height: 42px;
   width: 147px;
   box-sizing: border-box;
-  color: white;
   text-align: center;
   padding-top: 12px;
 
   font-family: Open Sans;
   font-size: 17px;
   line-height: 20px;
+}
+
+.main-image-buy a {
+  text-decoration: none;
+  color: white;
 }
