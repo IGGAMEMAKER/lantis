@@ -492,9 +492,12 @@ a {
   width: 40px;
   height: 100%;
   position: absolute;
-  background-color: rgba(180, 66, 66, 1);
+  background-color: rgba(180, 66, 66, 0.2);
   background-position: center;
   background-repeat: no-repeat;
+}
+.main-image-arrow:hover {
+  background-color: rgba(180, 66, 66, 1);
 }
 
 .main-image-arrow.left {
