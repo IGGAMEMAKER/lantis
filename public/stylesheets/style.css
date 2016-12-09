@@ -552,7 +552,15 @@ a {
 /* -------- goods card ------------ */
 .goods-image-column {
   width: 460px;
+  float: left;
+  height: auto;
 }
+
+.goods-description-column {
+  /*float: left;*/
+  width: calc(100% - 460px - 20px);
+}
+
 .goods-card-big-image {
   height: 320px;
   width: 100%;
@@ -603,6 +611,11 @@ a {
 }
 
 .goods-table {
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(66, 66, 66, 1);
+  text-align: left;
+  line-height: 25px;
 }
 
 .goods-table td {
@@ -614,10 +627,48 @@ a {
 }
 
 .goods-table tbody tr:nth-child(odd) {
-  width: 70%;
   background-color: rgba(73, 162, 237, 0.2);
 }
 
 .goods-table tbody td:nth-child(odd) {
-  width: 70%;
+  width: 60%;
+  padding-left: 7px;
+}
+
+.goods-price-container {
+  width: 173px;
+  text-align: center;
+  border: dashed 1px antiquewhite;
+}
+.goods-price-title {
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(180, 66, 66, 1);
+  line-height: 20px;
+}
+
+.goods-price-discount {
+  margin-top: 16px;
+  font-family: Open Sans;
+  font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+  text-align: center;
+}
+.goods-price-discount span {
+  color: rgba(180, 66, 66, 1);
+}
+.goods-price-button {
+  margin-top: 16px;
+  background-color: rgba(180, 66, 66, 1);
+  height: 42px;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 10px;
+
+  /*line-height: 20px;*/
+
+  font-family: Open Sans;
+  font-size: 16px;
 }
