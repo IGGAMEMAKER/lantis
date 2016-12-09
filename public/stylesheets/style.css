@@ -431,3 +431,42 @@ a {
   padding-top: 25px;
   padding-left: 25px;
 }
+
+/* ---------- paginator ---------- */
+.paginator-item {
+  background-color: rgba(73, 162, 237, 0.1);
+  color: rgba(1, 91, 126, 1);
+  height: 30px;
+  width: 30px;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 5px;
+}
+.paginator-text {
+
+}
+
+.paginator-item.selected {
+  background-color: rgba(1, 91, 126, 1);;
+  color: white;
+}
+
+.paginator-arrow {
+  height: 12px;
+  width: 13px;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.paginator-arrow.left {
+  background-image: url('/images/pagination-left.png');
+}
+
+.paginator-arrow.right {
+  background-image: url('/images/pagination-right.png');
+}
