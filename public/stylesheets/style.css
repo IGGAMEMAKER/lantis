@@ -114,14 +114,14 @@ a {
 .feedback-button-icon {
   height: 24px;
   width: 24px;
-  background-image: url('/images/call.png');
+  background-image: url('/images/l-phone.png');
   float: left;
   color: white;
   margin: 13px 13px 10px 19px;
 }
 
 .feedback-button-icon.question {
-  background-image: url('/images/question.png');
+  background-image: url('/images/l-question.png');
 }
 
 .feedback-button-text {
@@ -735,6 +735,7 @@ a {
 }
 
 .news-title {
+  margin-top: 9px;
   font-size: 22px;
   color: rgba(1, 91, 126, 1);
   line-height: 20px;
@@ -751,7 +752,7 @@ a {
   color: rgba(66, 66, 66, 1);
   line-height: 20px;
   margin: 12px auto 8px auto;
-  height: 106px;
+  height: 97px;
   overflow: hidden;
 }
 
