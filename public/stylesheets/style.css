@@ -850,9 +850,47 @@ a {
 
 .main-description-column-right-title {
   margin-bottom: 14px;
+
   font-family: Open Sans;
   font-size: 18px;
   color: rgba(180, 66, 66, 1);
   text-align: left;
   line-height: 20px;
 }
+
+.main-page-image-container {
+  display: inline-block;
+  margin-right: 65px;
+  /*margin-right: 72px;*/
+}
+
+.main-page-image-container:last-child {
+  margin-right: 0;
+}
+
+.main-page-image-text {
+  color: rgba(1, 91, 126, 1);
+  text-transform: uppercase;
+  max-width: 193px;
+  height: 32px;
+  text-align: center;
+}
+
+.main-page-image {
+  height: 171px;
+  width: 171px;
+  border-radius: 171px;
+  background-color: rgba(1, 91, 126, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 17px;
+}
+
+.main-page-image-container:hover .main-page-image{
+  background-color: rgba(180, 66, 66, 1);
+}
+
+.main-page-image-container:hover .main-page-image-text{
+  color: rgba(180, 66, 66, 1);
+}
+
