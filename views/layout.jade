@@ -4,102 +4,103 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    .redline
-    .header
-      .content
-        .head
+    .background
+      .modal
+      a(href="#")
+        .scroll-up
+      .content-wrapper
+        .redline
+        .header
+          .content
+            .head
+              .logo-area
+                .logo-image
+                .logo-texts
+                  .logo-primary
+                    // | ЛАНТИС
+                  .logo-secondary
+                    | Практичность и надежность
+              a(href="#")
+                .feedback-area
+                  .feedback-button
+                    .feedback-button-icon
+                    .feedback-button-text
+                      | Заказать звонок
+                  .feedback-info
+                    .feedback-phone
+                      | +7 (495) 419-08-15
+                    .feedback-email
+                      | ppdoor.zakaz@gmail.com
+            .navigation
+              li(class="navigation-label")
+                a(href="#") Главная
+              li(class="navigation-label")
+                a(href="#" class="selected") Продукция
+              li(class="navigation-label")
+                a(href="#") Производство
+              li(class="navigation-label")
+                a(href="#") Доставка и монтаж
+              li(class="navigation-label")
+                a(href="#") Сертификаты
+              li(class="navigation-label")
+                a(href="#") Проекты и отзывы
+              li(class="navigation-label")
+                a(href="#") Контакты
+              li(class="navigation-helper")
+          .blueline
+          .navigation-structure
+            .content
+              include menu
+        .content
+          block content
+        .content
+          include news
+          include goodsCard
+          include advert
+          include mainDescription
+          include paginator
+          include productVertical
+          include ourClients
+          include ourJobs
+          include product
+
+      .navigation.footer
+        .lightblueline
+          .content
+            div(class="navigation-footer")
+              li(class="navigation-label")
+                a(href="#") Главная
+              li(class="navigation-label")
+                a(href="#" class="selected") Продукция
+              li(class="navigation-label")
+                a(href="#") Производство
+              li(class="navigation-label")
+                a(href="#") Доставка и монтаж
+              li(class="navigation-label")
+                a(href="#") Сертификаты
+              li(class="navigation-label")
+                a(href="#") Проекты и отзывы
+              li(class="navigation-label")
+                a(href="#") Контакты
+              li(class="navigation-helper")
+      .foot
+        .content
           .logo-area
-            .logo-image
+            .logo-image.footer
             .logo-texts
-              .logo-primary
-                // | ЛАНТИС
+              .logo-primary.footer
               .logo-secondary
                 | Практичность и надежность
           .feedback-area
-            .feedback-button
-              .feedback-button-icon
-              .feedback-button-text
-                | Заказать звонок
+            .feedback-work-time
+              | © Ооо «Лантис», 2016
+            a(href="#")
+              .feedback-button
+                .feedback-button-icon.question
+                .feedback-button-text
+                  | Задать вопрос
             .feedback-info
-              .feedback-phone
-                | +7 (495) 419-08-15
+              .feedback-work-time
+                | Работаем пн. - пт. с 9 до 18
               .feedback-email
                 | ppdoor.zakaz@gmail.com
-        .navigation
-          li(class="navigation-label")
-            a(href="#") Главная
-          li(class="navigation-label")
-            a(href="#" class="selected") Продукция
-          li(class="navigation-label")
-            a(href="#") Производство
-          li(class="navigation-label")
-            a(href="#") Доставка и монтаж
-          li(class="navigation-label")
-            a(href="#") Сертификаты
-          li(class="navigation-label")
-            a(href="#") Проекты и отзывы
-          li(class="navigation-label")
-            a(href="#") Контакты
-          li(class="navigation-helper")
-      .blueline
-      .navigation-structure
-        .content
-          include menu
-    .content
-      block content
-    .content
-      include news
-    .content
-      include goodsCard
-    .content
-      include advert
-      include mainDescription
-    .content
-      include paginator
-    .content
-       include productVertical
-    .content
-      include ourClients
-    .content
-      include ourJobs
-    .content
-      include product
-    .navigation.footer
-      .lightblueline
-        .content
-          div(class="navigation-footer")
-            li(class="navigation-label")
-              a(href="#") Главная
-            li(class="navigation-label")
-              a(href="#" class="selected") Продукция
-            li(class="navigation-label")
-              a(href="#") Производство
-            li(class="navigation-label")
-              a(href="#") Доставка и монтаж
-            li(class="navigation-label")
-              a(href="#") Сертификаты
-            li(class="navigation-label")
-              a(href="#") Проекты и отзывы
-            li(class="navigation-label")
-              a(href="#") Контакты
-            li(class="navigation-helper")
-    .foot
-      .content
-        .logo-area
-          .logo-image.footer
-          .logo-texts
-            .logo-primary.footer
-            .logo-secondary
-              | Практичность и надежность
-        .feedback-area
-          .feedback-work-time
-            | © Ооо «Лантис», 2016
-          .feedback-button
-            .feedback-button-icon.question
-            .feedback-button-text
-              | Задать вопрос
-          .feedback-info
-            .feedback-work-time
-              | Работаем пн. - пт. с 9 до 18
-            .feedback-email
-              | ppdoor.zakaz@gmail.com

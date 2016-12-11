@@ -8,6 +8,36 @@ a {
   /*color: #00B7FF;*/
 }
 
+.background {
+  position: relative;
+}
+
+.modal.show {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 20;
+}
+
+.scroll-up {
+  position: fixed;
+  z-index: 19;
+  right: 20px;
+  bottom: 157px;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(1, 91, 126, 1);
+  background-repeat: no-repeat;
+  background-image: url('/images/arrow-up.png');
+  background-position: center;
+}
+
+/* 141 */
+.content-wrapper {
+  min-height: calc(100vh - 155px);
+}
+
 .redline {
   height: 5px;
   background-color: rgba(180, 66, 66, 1);;
@@ -240,6 +270,7 @@ a {
   background-color: rgba(1, 91, 126, 1);
   padding-top: 21px;
   height: 98px;
+  box-sizing: border-box;
 }
 
 /* ---------- additional styling ------------ */
@@ -579,6 +610,7 @@ a {
   /*background-color: rgba(180, 66, 66, 0.2);*/
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .goods-arrow:hover {
   /*background-color: rgba(180, 66, 66, 1);*/
@@ -688,6 +720,7 @@ a {
 .goods-price-discount span {
   color: rgba(180, 66, 66, 1);
 }
+
 .goods-price-button {
   margin-top: 16px;
   background-color: rgba(180, 66, 66, 1);
@@ -698,9 +731,12 @@ a {
   padding-top: 10px;
 
   /*line-height: 20px;*/
-
   font-family: Open Sans;
   font-size: 16px;
+}
+
+.goods-price-container a {
+  text-decoration: none;
 }
 
 /* --------- news ----------- */
@@ -884,6 +920,8 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-page-image-container:hover .main-page-image{
