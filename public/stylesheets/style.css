@@ -628,6 +628,13 @@ textarea.modal-input {
   background-size: contain;
   position: relative;
   box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.main-menu-blue-background {
+  height: 179px;
+  width: 100%;
+  background-color: rgba(1, 91, 126, 1);
 }
 
 .main-image-arrow {
