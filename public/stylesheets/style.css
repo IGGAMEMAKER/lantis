@@ -460,6 +460,20 @@ textarea.modal-input {
   line-height: 20px;
 }
 
+.product-page-image {
+  height: 204px;
+  width: 310px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 14px;
+  float: left;
+}
+
+.product-page-product-container {
+  overflow: auto;
+}
+
 .blue-container {
   margin: 30px auto 0px;
   background-color: rgba(73, 162, 237, 0.2);
@@ -468,6 +482,7 @@ textarea.modal-input {
 
 .product-list-container {
   overflow: auto;
+  margin-top: 20px;
 }
 
 .product-demo {
