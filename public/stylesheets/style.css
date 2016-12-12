@@ -36,10 +36,10 @@ a {
   text-align: left;
   text-indent: 10px;
   margin-bottom: 10px;
-  ::-webkit-input-placeholder {color: rgba(73, 162, 237, 1);}
-  ::-moz-placeholder          {color: rgba(73, 162, 237, 1);}/* Firefox 19+ */
-  :-moz-placeholder           {color: rgba(73, 162, 237, 1);}/* Firefox 18- */
-  :-ms-input-placeholder      {color: rgba(73, 162, 237, 1);}
+  /*::-webkit-input-placeholder {color: rgba(73, 162, 237, 1);}*/
+  /*::-moz-placeholder          {color: rgba(73, 162, 237, 1);}!* Firefox 19+ *!*/
+  /*:-moz-placeholder           {color: rgba(73, 162, 237, 1);}!* Firefox 18- *!*/
+  /*:-ms-input-placeholder      {color: rgba(73, 162, 237, 1);}*/
 }
 
 textarea.modal-input {
@@ -150,6 +150,16 @@ textarea.modal-input {
   -webkit-background-size: 3px 3px;
   -moz-background-size: 3px 3px;
   background-size: 3px 3px;
+}
+
+.page-title {
+  font-family: Open Sans;
+  font-size: 25px;
+  color: rgba(66, 66, 66, 1);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .head {
@@ -274,6 +284,7 @@ textarea.modal-input {
   /*line-height: 6px;*/
   background-image: url('/images/logo-primary.png');
 }
+
 .logo-primary.footer {
   background-image: url('/images/logo-primary-white.png');
 }
@@ -1019,3 +1030,30 @@ textarea.modal-input {
   color: rgba(180, 66, 66, 1);
 }
 
+.contacts-text {
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(66, 66, 66, 1);
+  text-align: left;
+  line-height: 25px;
+}
+
+.contacts-text span {
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(73, 162, 237, 1);
+  text-align: left;
+  line-height: 25px;
+}
+
+.contacts-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: solid rgba(73, 162, 237, 1) 3px;
+  border-top: solid rgba(73, 162, 237, 1) 3px;
+  height: 330px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/images/map.png');
+}

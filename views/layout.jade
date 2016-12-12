@@ -5,7 +5,7 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     .background
-      .modal.show
+      .modal
         .modal-form
           .modal-header
             .modal-question-image
@@ -36,16 +36,16 @@ html
                   .logo-secondary
                     | Практичность и надежность
               a(href="#")
-                .feedback-area
-                  .feedback-button
-                    .feedback-button-icon
-                    .feedback-button-text
-                      | Заказать звонок
-                  .feedback-info
-                    .feedback-phone
-                      | +7 (495) 419-08-15
-                    .feedback-email
-                      | ppdoor.zakaz@gmail.com
+              .feedback-area
+                .feedback-button
+                  .feedback-button-icon
+                  .feedback-button-text
+                    | Заказать звонок
+                .feedback-info
+                  .feedback-phone
+                    | +7 (495) 419-08-15
+                  .feedback-email
+                    | ppdoor.zakaz@gmail.com
             .navigation
               li(class="navigation-label")
                 a(href="#") Главная
@@ -68,7 +68,7 @@ html
               include menu
         .content
           block content
-        .content
+        // .content
           include news
           include goodsCard
           include advert
