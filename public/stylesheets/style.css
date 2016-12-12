@@ -1057,3 +1057,27 @@ textarea.modal-input {
   background-repeat: no-repeat;
   background-image: url('/images/map.png');
 }
+
+.certificate-image {
+  height: 302px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.certificate-container {
+  width: 216px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.certificate-container:last-child {
+  margin-right: 0;
+}
+
+.certificate-text {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: italic;
+  color: rgba(66, 66, 66, 1);
+  text-align: center;
+}
