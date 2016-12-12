@@ -452,6 +452,14 @@ textarea.modal-input {
   z-index: 5;
 }
 
+.product-page-text {
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(66, 66, 66, 1);
+  text-align: left;
+  line-height: 20px;
+}
+
 .product-demo {
   height: 180px;
   width: 310px;
