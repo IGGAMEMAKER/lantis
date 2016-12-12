@@ -32,9 +32,7 @@ html
                 .logo-image
                 .logo-texts
                   .logo-primary
-                    // | ЛАНТИС
-                  .logo-secondary
-                    | Практичность и надежность
+                  .logo-secondary Практичность и надежность
               a(href="#")
               .feedback-area
                 .feedback-button
@@ -63,9 +61,10 @@ html
                 a(href="#") Контакты
               li(class="navigation-helper")
           .blueline
-          .navigation-structure
-            .content
-              include menu
+          block menu
+            .navigation-structure
+              .content
+                include menu
         block content
          .content
           include news
