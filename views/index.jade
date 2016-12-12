@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .content
+    include advert
+    include product
+  include mainDescription
+  .content
+    include ourJobs
+    include ourClients

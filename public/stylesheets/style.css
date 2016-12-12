@@ -1010,6 +1010,13 @@ textarea.modal-input {
   text-align: center;
 }
 
+.main-page-images-container {
+  text-align: center;
+  margin: 30px auto 23px;
+  background-color: rgba(73, 162, 237, 0.2);
+  padding: 30px 0;
+}
+
 .main-page-image {
   height: 171px;
   width: 171px;
