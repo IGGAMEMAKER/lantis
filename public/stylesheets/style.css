@@ -1069,6 +1069,7 @@ textarea.modal-input {
   width: 216px;
   display: inline-block;
   margin-right: 25px;
+  margin-bottom: 32px;
 }
 .certificate-container:last-child {
   margin-right: 0;
