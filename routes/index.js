@@ -17,6 +17,7 @@ router.get('/contacts', render('pages/contacts'));
 router.get('/certificates', render('pages/certificates'));
 router.get('/news/list', render('pages/newsList'));
 router.get('/news', render('pages/news'));
+router.get('/goodsCard', render('pages/goodsCard'));
 // router.get('/contacts', render('contacts'));
 
 module.exports = router;
