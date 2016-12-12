@@ -5,7 +5,22 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     .background
-      .modal
+      .modal.show
+        .modal-form
+          .modal-header
+            .modal-question-image
+            .modal-title Задать вопрос
+            center
+              form
+                input(class="modal-input" placeholder="Ваше имя")
+                div
+                input(class="modal-input" placeholder="E-mail")
+                div
+                textarea(class="modal-input" placeholder="Ваш вопрос")
+          .modal-footer
+            .modal-button-container
+            .modal-button ОТПРАВИТЬ
+
       a(href="#")
         .scroll-up
       .content-wrapper

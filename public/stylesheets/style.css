@@ -12,12 +12,99 @@ a {
   position: relative;
 }
 
+.modal {
+  display: none;
+}
+
 .modal.show {
+  display: block;
   position: absolute;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 20;
+}
+
+.modal-input {
+  height: 30px;
+  width: 227px;
+  border: 1px solid rgba(48, 134, 206, 1);
+
+  font-family: Open Sans;
+  font-size: 15px;
+  color: rgba(73, 162, 237, 1);
+  text-align: left;
+  text-indent: 10px;
+  margin-bottom: 10px;
+  ::-webkit-input-placeholder {color: rgba(73, 162, 237, 1);}
+  ::-moz-placeholder          {color: rgba(73, 162, 237, 1);}/* Firefox 19+ */
+  :-moz-placeholder           {color: rgba(73, 162, 237, 1);}/* Firefox 18- */
+  :-ms-input-placeholder      {color: rgba(73, 162, 237, 1);}
+}
+
+textarea.modal-input {
+  height: 70px;
+  width: 227px;
+  border: 1px solid rgba(48, 134, 206, 1);
+  resize: none;
+}
+
+.modal-footer {
+  height: 94px;
+  width: 100%;
+  background-color: white;
+}
+
+.modal-button-container {
+  padding-top: 22px;
+}
+
+.modal-button {
+  background-color: rgba(180, 66, 66, 1);
+  height: 47px;
+  width: 227px;
+
+  font-family: Open Sans;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 9px;
+}
+
+.modal-title {
+  font-family: Open Sans;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.modal-question-image {
+  height: 65px;
+  width: 65px;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-image: url('/images/l-question.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal-form {
+  height: 412px;
+  width: 480px;
+  background-color: #49A2ED;
+  margin: 175px auto 0;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  border-bottom: solid rgba(1, 91, 126, 1) 3px;
 }
 
 .scroll-up {
@@ -40,7 +127,7 @@ a {
 
 .redline {
   height: 5px;
-  background-color: rgba(180, 66, 66, 1);;
+  background-color: rgba(180, 66, 66, 1);
 }
 
 .blueline {
