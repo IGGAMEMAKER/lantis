@@ -1105,7 +1105,8 @@ textarea.modal-input {
 }
 
 .main-description-column-left {
-  width: 447px;
+  max-width: 447px;
+  width: 100%;
   margin-right: 30px;
   float: left;
 }
@@ -1246,6 +1247,7 @@ textarea.modal-input {
   }
   .navigation-label {
     text-align: center;
+    padding: 0 0 13px 0;
   }
   .navigation {
     text-align: inherit;
@@ -1289,5 +1291,30 @@ textarea.modal-input {
   .our-clients-image {
     display: block;
     margin-bottom: 15px;
+  }
+
+  .product-demo:nth-child(n) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-description-bordered-text {
+    display: inline-block;
+  }
+  .main-description-bordered-buttons {
+    text-align: center;
+  }
+  .main-description-bordered-text:nth-child(n) {
+    margin: 0 0 10px 0;
+  }
+  .main-description-column-left {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  .main-description-column-right {
+    max-width: 447px;
+    margin: 10px auto;
   }
 }
