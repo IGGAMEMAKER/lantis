@@ -795,6 +795,9 @@ textarea.modal-input {
   height: 320px;
   width: 100%;
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .goods-card-container {
@@ -889,7 +892,9 @@ textarea.modal-input {
 
 .goods-textual-description-container {
   margin-top: 33px;
-  width: 464px;
+  /*width: 464px;*/
+  max-width: 464px;
+  width: 100%;
 }
 .goods-textual-description-title {
   font-family: Open Sans;
@@ -1379,5 +1384,38 @@ textarea.modal-input {
   .certificate-container:nth-child(n) {
     margin: 0 auto 32px;
     display: block;
+  }
+
+
+  .goods-image-column {
+    float: none;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .goods-description-column {
+    margin-left: 0;
+    float: none;
+    width: 100%;
+  }
+
+  .goods-card-big-image {
+    height: 240px;
+  }
+
+  .goods-small-image,.goods-small-image.center {
+    margin: 5px;
+    width: 140px;
+  }
+
+  .goods-table {
+    margin: auto;
+    float: none;
+  }
+
+  .goods-price-container {
+    float: none;
+    margin: auto;
   }
 }
