@@ -704,7 +704,8 @@ textarea.modal-input {
   padding-left: 57px;
   background-image: url('images/main-advert.png');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   box-sizing: border-box;
   margin-bottom: 15px;
@@ -1277,6 +1278,9 @@ textarea.modal-input {
   }
   .scroll-up {
     bottom: 5px;
+    width: 30px;
+    height: 30px;
+    right: 10px;
   }
   .our-clients-image-wrapper,.our-clients-image-wrapper.jobs {
     height: auto;
