@@ -1192,6 +1192,7 @@ textarea.modal-input {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-image: url('images/map.png');
 }
 
@@ -1339,5 +1340,44 @@ textarea.modal-input {
 
   .feedback-info {
     margin-right: 0;
+  }
+
+  .contacts-image {
+    height: 33vw;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .product-vertical-wrapper:nth-child(n) {
+    margin: 15px auto;
+    float: none;
+  }
+
+  .news-container:nth-child(n) {
+    height: auto;
+  }
+  .news-image {
+    height: 224px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .news-info {
+    width: 100%;
+    float: none;
+  }
+
+  .news-more-button {
+    margin: 0 auto;
+  }
+
+  .news-text {
+    height: auto;
+  }
+
+  .certificate-container:nth-child(n) {
+    margin: 0 auto 32px;
+    display: block;
   }
 }
