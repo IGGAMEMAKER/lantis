@@ -89,7 +89,7 @@ textarea.modal-input {
   margin: 0 auto;
   padding-top: 23px;
   padding-bottom: 23px;
-  background-image: url('/images/l-question.png');
+  background-image: url('images/l-question.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -116,7 +116,7 @@ textarea.modal-input {
   width: 60px;
   background-color: rgba(1, 91, 126, 1);
   background-repeat: no-repeat;
-  background-image: url('/images/arrow-up.png');
+  background-image: url('images/arrow-up.png');
   background-position: center;
 }
 
@@ -141,8 +141,7 @@ textarea.modal-input {
 }
 
 .header {
-  height: 156px;
-  /*height: 140px;*/
+  min-height: 156px;
   background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
   background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
   background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
@@ -175,12 +174,12 @@ textarea.modal-input {
 .logo-image {
   height: 59px;
   width: 59px;
-  background-image: url('/images/logo.png');
+  background-image: url('images/logo.png');
   float: left;
 }
 
 .logo-image.footer {
-  background-image: url('/images/logo-white.png');
+  background-image: url('images/logo-white.png');
 }
 
 .logo-texts {
@@ -203,6 +202,7 @@ textarea.modal-input {
   float: right;
   display: inline-block;
   width: calc(100% - 280px);
+  overflow: hidden;
 }
 
 .feedback-info {
@@ -221,7 +221,7 @@ textarea.modal-input {
 
 .feedback-email {
   /*margin-top: 5px;*/
-  height: 16px;
+  /*height: 16px;*/
   /*width: 179px;*/
   font-family: Open Sans;
   font-size: 15px;
@@ -241,14 +241,14 @@ textarea.modal-input {
 .feedback-button-icon {
   height: 24px;
   width: 24px;
-  background-image: url('/images/l-phone.png');
+  background-image: url('images/l-phone.png');
   float: left;
   color: white;
   margin: 13px 13px 10px 19px;
 }
 
 .feedback-button-icon.question {
-  background-image: url('/images/l-question.png');
+  background-image: url('images/l-question.png');
 }
 
 .feedback-button-text {
@@ -282,11 +282,11 @@ textarea.modal-input {
   text-align: left;
   letter-spacing: 0.07em;
   /*line-height: 6px;*/
-  background-image: url('/images/logo-primary.png');
+  background-image: url('images/logo-primary.png');
 }
 
 .logo-primary.footer {
-  background-image: url('/images/logo-primary-white.png');
+  background-image: url('images/logo-primary-white.png');
 }
 
 .content {
@@ -317,7 +317,7 @@ textarea.modal-input {
 }
 .navigation.footer a.selected:after {
   position: absolute;
-  background-image: url('/images/triangle.png');
+  background-image: url('images/triangle.png');
   background-color: transparent;
   content: '';
   height: 14px;
@@ -393,11 +393,11 @@ textarea.modal-input {
 }
 
 .our-clients-next {
-  background-image: url('/images/arrow-next-active.png');
+  background-image: url('images/arrow-next-active.png');
 }
 
 .our-clients-previous {
-  background-image: url('/images/arrow-previous.png');
+  background-image: url('images/arrow-previous.png');
 }
 
 .our-clients-images {
@@ -505,7 +505,8 @@ textarea.modal-input {
 }
 
 .product-page-product-container {
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: hidden;
 }
 
 .blue-container {
@@ -515,7 +516,8 @@ textarea.modal-input {
 }
 
 .product-list-container {
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: hidden;
   margin-top: 20px;
 }
 
@@ -679,11 +681,11 @@ textarea.modal-input {
 }
 
 .paginator-arrow.left {
-  background-image: url('/images/pagination-left.png');
+  background-image: url('images/pagination-left.png');
 }
 
 .paginator-arrow.right {
-  background-image: url('/images/pagination-right.png');
+  background-image: url('images/pagination-right.png');
 }
 
 .paginator-container {
@@ -694,10 +696,13 @@ textarea.modal-input {
 /* --------- main-image ---------- */
 .main-image-container {
   height: 309px;
-  width: 960px;
+  /*width: 960px;*/
+  margin-top: -165px;
+  width: 100%;
+  max-width: 960px;
   padding-top: 30px;
   padding-left: 57px;
-  background-image: url('/images/main-advert.png');
+  background-image: url('images/main-advert.png');
   background-position: center;
   background-size: contain;
   position: relative;
@@ -726,13 +731,13 @@ textarea.modal-input {
 .main-image-arrow.left {
   left: 0;
   top: 0;
-  background-image: url('/images/main-advert-arrow-left.png');
+  background-image: url('images/main-advert-arrow-left.png');
 }
 
 .main-image-arrow.right {
   right: 0;
   top: 0;
-  background-image: url('/images/main-advert-arrow-right.png');
+  background-image: url('images/main-advert-arrow-right.png');
 }
 
 .main-image-title {
@@ -792,7 +797,8 @@ textarea.modal-input {
 }
 
 .goods-card-container {
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: hidden;
 }
 
 .goods-arrow {
@@ -811,13 +817,13 @@ textarea.modal-input {
 .goods-arrow.left {
   left: 0;
   top: 0;
-  background-image: url('/images/main-advert-arrow-left.png');
+  background-image: url('images/main-advert-arrow-left.png');
 }
 
 .goods-arrow.right {
   right: 0;
   top: 0;
-  background-image: url('/images/arrow-next-active.png');
+  background-image: url('images/arrow-next-active.png');
 }
 
 .goods-image-list {
@@ -909,6 +915,7 @@ textarea.modal-input {
   color: rgba(117, 117, 117, 1);
   text-align: center;
 }
+
 .goods-price-discount span {
   color: rgba(180, 66, 66, 1);
 }
@@ -933,15 +940,17 @@ textarea.modal-input {
 
 /* --------- news ----------- */
 .news-container {
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: hidden;
   height: 204px;
   margin-bottom: 20px;
 }
 
 .news-big-picture {
-  background-image: url('/images/news-big-picture.png');
+  background-image: url('images/news-big-picture.png');
   height: 378px;
-  width: 960px;
+  max-width: 960px;
+  width: 100%;
   position: relative;
   margin: 6px auto 19px;
 }
@@ -961,7 +970,8 @@ textarea.modal-input {
 }
 
 .news-container:nth-child(even) {
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: hidden;
   height: 204px;
   background-color: rgba(73, 162, 237, 0.1);
 }
@@ -1051,7 +1061,7 @@ textarea.modal-input {
 .menu-home {
   height: 18px;
   width: 20px;
-  background-image: url('/images/l-home.png');
+  background-image: url('images/l-home.png');
   background-position: center;
   background-repeat: no-repeat;
   float: left;
@@ -1059,7 +1069,8 @@ textarea.modal-input {
 
 /* --------- main --------- */
 .main-description-container {
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: hidden;
   margin-top: 38px;
 }
 
@@ -1179,7 +1190,7 @@ textarea.modal-input {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('/images/map.png');
+  background-image: url('images/map.png');
 }
 
 .certificate-image {
@@ -1205,4 +1216,78 @@ textarea.modal-input {
   font-style: italic;
   color: rgba(66, 66, 66, 1);
   text-align: center;
+}
+
+@media (max-width: 960px) {
+  .navigation-label {
+    display: block;
+    padding-top: 0;
+  }
+  .feedback-area {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .header {
+    /*height: 245px;*/
+  }
+  .head {
+    text-align: center !important;
+  }
+  .feedback-phone,.feedback-email {
+    text-align: center;
+  }
+  .feedback-info {
+    display: block;
+    float: none;
+  }
+  .feedback-button {
+    float: none;
+  }
+  .navigation-label {
+    text-align: center;
+  }
+  .navigation {
+    text-align: inherit;
+    margin-top: 20px;
+  }
+
+  .main-page-image-container {
+    display: block;
+    margin-right: 0;
+  }
+  .main-image-container {
+    padding-top: 15px;
+  }
+  .main-page-image-text {
+    max-width: 100%;
+    text-align: center;
+  }
+  .main-image-title {
+    line-height: 28px;
+  }
+  .main-image-buy {
+    margin-top: 70px;
+  }
+  .main-image-text {
+    margin-top: 7px;
+  }
+  .scroll-up {
+    bottom: 5px;
+  }
+  .our-clients-image-wrapper,.our-clients-image-wrapper.jobs {
+    height: auto;
+  }
+  .our-jobs-image {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .our-clients-arrow {
+    display: none;
+  }
+
+  .our-clients-image {
+    display: block;
+    margin-bottom: 15px;
+  }
 }

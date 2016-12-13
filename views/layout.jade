@@ -3,6 +3,7 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=0")
   body
     .background
       .modal
@@ -33,7 +34,6 @@ html
                 .logo-texts
                   .logo-primary
                   .logo-secondary Практичность и надежность
-              a(href="#")
               .feedback-area
                 .feedback-button
                   .feedback-button-icon
@@ -67,15 +67,6 @@ html
                 include menu
         block content
          .content
-          include news
-          include goodsCard
-          include advert
-          include mainDescription
-          include paginator
-          include productVertical
-          include ourClients
-          include ourJobs
-          include product
 
       .navigation.footer
         .lightblueline
