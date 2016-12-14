@@ -97,7 +97,9 @@ textarea.modal-input {
 
 .modal-form {
   height: 412px;
-  width: 480px;
+  /*width: 480px;*/
+  max-width: 480px;
+  width: 100%;
   background-color: #49A2ED;
   margin: 175px auto 0;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
@@ -461,8 +463,9 @@ textarea.modal-input {
 }
 
 .product-page-text.floatleft {
-  width: 623px;
-  float: left;
+  max-width: 623px;
+  width: 100%;
+  float: none;
 }
 
 .image-description {
@@ -499,9 +502,10 @@ textarea.modal-input {
 }
 
 .news-page-image-container {
-  width: 310px;
   text-align: center;
   float: left;
+  max-width: 310px;
+  width: 100%;
 }
 
 .product-page-product-container {
@@ -953,17 +957,21 @@ textarea.modal-input {
 }
 
 .news-big-picture {
-  background-image: url('images/news-big-picture.png');
-  height: 378px;
+  /*background-image: url('images/news-big-picture.png');*/
+  /*height: 378px;*/
+  height: auto;
   max-width: 960px;
   width: 100%;
-  position: relative;
   margin: 6px auto 19px;
 }
 
-.news-big-picture:after {
+.news-big-image-container {
+  position: relative;
+}
+
+.news-big-image-container:after {
   position: absolute;
-  bottom: 11px;
+  bottom: 34px;
   right: 13px;
 
   font-family: Open Sans;
@@ -1304,10 +1312,20 @@ textarea.modal-input {
     margin-bottom: 15px;
   }
 
+  .news-page-image-container {
+    float: none;
+    margin: auto;
+  }
+
   .product-demo:nth-child(n) {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .product-page-image, .news-page-image {
+    float: none;
+    margin: auto;
   }
 
   .main-description-bordered-text {
